@@ -4,4 +4,7 @@
     <string name="button2">按钮 2</string>
     <string name="button3">按钮 3</string>
     <string name="title">Android 练习</string>
+    <string name="hello_world">你好</string>
+    <string name="signup">signup</string>
+    <string name="login">login</string>
 </resources>
