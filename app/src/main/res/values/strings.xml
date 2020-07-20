@@ -1,10 +1,17 @@
 <resources>
     <string name="app_name">HelloWorld</string>
     <string name="button1">Button 1</string>
-    <string name="button2">Button 2</string>
+    <string name="button2">Login Page</string>
     <string name="button3">Button 3</string>
     <string name="title">Android Practice</string>
     <string name="hello_world">Hello</string>
     <string name="signup">signup</string>
     <string name="login">login</string>
+    <string name="logo">logo</string>
+    <string name="remember_me">Remember me</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="or_connect_with">or connect with</string>
+    <string name="sign_up_with_email">Sign up with Email</string>
+    <string name="username">username</string>
+    <string name="password">password</string>
 </resources>

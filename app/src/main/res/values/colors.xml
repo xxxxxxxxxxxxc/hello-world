@@ -3,4 +3,8 @@
     <color name="colorPrimary">#6200EE</color>
     <color name="colorPrimaryDark">#3700B3</color>
     <color name="colorAccent">#03DAC5</color>
+    <color name="text_input_color">#e4e4e4</color>
+    <color name="rf">#222222</color>
+    <color name="DEB887">#deb887</color>
+    <color name="_1f4ba5">#1f4ba5</color>
 </resources>
