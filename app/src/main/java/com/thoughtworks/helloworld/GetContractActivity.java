@@ -40,17 +40,18 @@ public class GetContractActivity extends AppCompatActivity {
             Uri data1 = data.getData();
             Log.d("d", data1.toString());
             String[] queryData = {ContactsContract.CommonDataKinds.Phone.DISPLAY_NAME, ContactsContract.CommonDataKinds.Phone.NUMBER};
-            Cursor queryCursor = getContentResolver().query(data1, queryData, null, null, null);
-            if (queryCursor != null && queryCursor.moveToFirst()) {
-                int displayNameIdx = queryCursor.getColumnIndex(ContactsContract.CommonDataKinds.Phone.DISPLAY_NAME);
-                String displayName = queryCursor.getString(displayNameIdx);
 
-                int NumberIdx = queryCursor.getColumnIndex(ContactsContract.CommonDataKinds.Phone.NUMBER);
-                String phoneNumber = queryCursor.getString(NumberIdx);
+            try (Cursor queryCursor = getContentResolver().query(data1, queryData, null, null, null)) {
+                if (queryCursor != null && queryCursor.moveToFirst()) {
+                    int displayNameIdx = queryCursor.getColumnIndex(ContactsContract.CommonDataKinds.Phone.DISPLAY_NAME);
+                    String displayName = queryCursor.getString(displayNameIdx);
 
-                Toast.makeText(this, String.format("%s %s", displayName, phoneNumber), Toast.LENGTH_SHORT).show();
+                    int NumberIdx = queryCursor.getColumnIndex(ContactsContract.CommonDataKinds.Phone.NUMBER);
+                    String phoneNumber = queryCursor.getString(NumberIdx);
+
+                    Toast.makeText(this, String.format("%s %s", displayName, phoneNumber), Toast.LENGTH_SHORT).show();
+                }
             }
-
         }
     }
 }
