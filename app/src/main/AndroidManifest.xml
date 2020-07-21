@@ -22,6 +22,9 @@
         <activity android:name=".LoginActivity" android:theme="@style/NoActionBar">
 
         </activity>
+        <activity android:name=".GetContractActivity" android:theme="@style/NoActionBar">
+
+        </activity>
     </application>
 
 </manifest>

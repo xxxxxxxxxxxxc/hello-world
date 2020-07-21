@@ -26,4 +26,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, LoginActivity.class);
         startActivity(intent);
     }
+
+    public void toGetContractPage(View view) {
+        Intent intent = new Intent(this, GetContractActivity.class);
+        startActivity(intent);
+    }
 }
