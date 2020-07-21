@@ -1,13 +1,5 @@
 
-### zh-linear
-![](zh-linear.png)
-
-### en-linear
-![](en-linear.png)
-
-
-### zh-framelayout
-![](zh-framlayout.png)
-
-### en-framelayout
-![](en-framelayout.png)
+![](2/index.png)
+![](2/select_contract_page.png)
+![](2/system_page.png)
+![](2/result.png)
