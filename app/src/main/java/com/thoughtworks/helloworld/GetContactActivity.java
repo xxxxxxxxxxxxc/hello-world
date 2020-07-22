@@ -12,30 +12,30 @@ import android.widget.Toast;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-public class GetContractActivity extends AppCompatActivity {
+public class GetContactActivity extends AppCompatActivity {
 
-    public static final int SELECT_CONTRACT_REQUEST_CODE = 1;
+    public static final int SELECT_CONTACT_REQUEST_CODE = 1;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_get_contract);
+        setContentView(R.layout.activity_get_contact);
     }
 
 
-    public void selectOneContract(View view) {
+    public void selectOneContact(View view) {
 
         Intent intent = new Intent(Intent.ACTION_PICK);
         intent.setType(ContactsContract.CommonDataKinds.Phone.CONTENT_TYPE);
         if (intent.resolveActivity(getPackageManager()) != null) {
-            startActivityForResult(intent, SELECT_CONTRACT_REQUEST_CODE);
+            startActivityForResult(intent, SELECT_CONTACT_REQUEST_CODE);
         }
     }
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
-        if (requestCode == SELECT_CONTRACT_REQUEST_CODE && resultCode == RESULT_OK) {
+        if (requestCode == SELECT_CONTACT_REQUEST_CODE && resultCode == RESULT_OK) {
 
             Uri data1 = data.getData();
             Log.d("d", data1.toString());

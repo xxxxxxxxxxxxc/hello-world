@@ -27,8 +27,8 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void toGetContractPage(View view) {
-        Intent intent = new Intent(this, GetContractActivity.class);
+    public void toGetContactPage(View view) {
+        Intent intent = new Intent(this, GetContactActivity.class);
         startActivity(intent);
     }
 }

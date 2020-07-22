@@ -34,8 +34,8 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:onClick="toGetContractPage"
-                android:text="@string/get_contract" />
+                android:onClick="toGetContactPage"
+                android:text="@string/get_contact" />
 
             <Button
                 android:layout_width="match_parent"
