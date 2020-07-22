@@ -13,4 +13,5 @@
     <string name="sign_up_with_email">Sign up with Email</string>
     <string name="username">username</string>
     <string name="select_one_contact">Select One Contact</string>
+    <string name="practice_activity_lifecycle">Activity Lifecycle</string>
 </resources>

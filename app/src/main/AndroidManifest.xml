@@ -29,6 +29,11 @@
             android:theme="@style/NoActionBar">
 
         </activity>
+        <activity
+            android:name=".ActivityLifeCyclePracticeActivity"
+            android:theme="@style/NoActionBar">
+
+        </activity>
     </application>
 
 </manifest>

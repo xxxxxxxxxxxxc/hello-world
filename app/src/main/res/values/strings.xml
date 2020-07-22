@@ -16,4 +16,5 @@
     <string name="password">password</string>
     <string name="get_contact">Get Contact</string>
     <string name="select_one_contact">Select One Contact</string>
+    <string name="practice_activity_lifecycle">Activity Lifecycle</string>
 </resources>

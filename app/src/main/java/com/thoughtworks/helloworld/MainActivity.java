@@ -31,4 +31,10 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, GetContactActivity.class);
         startActivity(intent);
     }
+
+    public void goToActivityPracticeActivity(View view) {
+        Intent intent = new Intent(this, ActivityLifeCyclePracticeActivity.class);
+        startActivity(intent);
+
+    }
 }

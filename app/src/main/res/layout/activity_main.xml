@@ -40,7 +40,8 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/button3" />
+                android:onClick="goToActivityPracticeActivity"
+                android:text="@string/practice_activity_lifecycle" />
 
             <Button
                 android:layout_width="match_parent"
